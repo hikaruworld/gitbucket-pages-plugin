@@ -1,6 +1,6 @@
 organization  := "gitbucket"
 name          := "gitbucket-pages-plugin"
-scalaVersion  := "2.12.2"
+scalaVersion  := "2.12.3"
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8", "-feature")
 
 enablePlugins(SbtTwirl)
@@ -11,7 +11,7 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "io.github.gitbucket"   %%  "gitbucket"           % "4.15.0",
+  "io.github.gitbucket"   %%  "gitbucket"           % "4.16.0",
   "javax.servlet"         %   "javax.servlet-api"   % "3.1.0"
 )
 
